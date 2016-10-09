@@ -4,15 +4,44 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NotificationServiceExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>UNNotification.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>contentExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>68065C4F1D9D0538004F478E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68AABECB1DAA110A00192A6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68AABEDB1DAA116D00192A6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68AABEED1DAA2A1900192A6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

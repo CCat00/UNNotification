@@ -31,6 +31,23 @@
     content.body = @"这是一条通知的内容";
     content.categoryIdentifier = @"ceshi";
     
+//    //多媒体通知(发送一个图片)
+//    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"attachment_pic" ofType:@"jpg"];
+//    NSURL *imageURL = [NSURL fileURLWithPath:imagePath];
+//    UNNotificationAttachment *attachment = [UNNotificationAttachment attachmentWithIdentifier:@"attachment.identifier" URL:imageURL options:nil error:nil];
+//
+//    
+//    //多媒体通知(发送一个mp3)
+//    NSString *mp3Path = [[NSBundle mainBundle] pathForResource:@"Fly" ofType:@"mp3"];
+//    NSURL *mp3URL = [NSURL fileURLWithPath:mp3Path];
+//    NSError *error = nil;
+//    UNNotificationAttachment *mp3Attachment = [UNNotificationAttachment attachmentWithIdentifier:@"mp3.attachment.identifier" URL:mp3URL options:nil error:&error];
+//    if (error) {
+//        NSLog(@"error = %@", error);
+//    }
+//    content.attachments = @[attachment,mp3Attachment];
+
+    
     // 创建发送触发
     UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:5 repeats:NO];
     
